@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>HTML Tags and Inline CSS Original Work</title>
+	</head>
+	<body>
+		<h1>Level 1: Newbie</h1>
+		<ul>
+		<li>1. Two Paragraphs With Different Fonts</li>
+		<li>2. Two different sized pictures resized to 50px by 50px</li>
+		<li>3. Additional Unique CSS Command</li>
+		</ul>
+		<h2>Newbie #1</h2>
+		<p style="font-family: Perpetua; font-size: 25px">This is a paragraph about Lorem Ipsum, the latin filler words prominently displayed in 25 pixel font size and Perpetua font style.</p>
+		<p style="font-family: Helvetica; font-size: 15px">This is a paragraph displayed in tiny 15 pizel font size and Helvetica. Fun fact: Helvetica is free on Apple devices but requires paid subscription to use on Microsoft or Linux. Designers go crazy over this font!</p>
+		<h2>Newbie #2</h2>
+		<img src = "http://www.arizonapetvet.com/blog/wp-content/uploads/2020/08/AdobeStock_233302249.jpeg" 
+			title = "Alert Bunnies" 
+			style = "width: 50px; height: 50px"> 
+		</img> 
+		<img src = "https://i.pinimg.com/originals/e6/c4/72/e6c472a4b9aaf0fbf6e715d9eab3918f.jpg" 
+			title = "Tiny Blue Frog" 
+			style = "width: 50px; height: 50px"> 
+		<h2>Newbie #3</h2>
+		<style>
+		div {
+			border-style: solid;
+			border-color: coral;
+		}
+		</style>
+		<div>This CSS command makes this text have a coral-colored solid border.</div>
+		
+		<h1>Level 2: Apprentice</h1>
+		<ul>
+		<li>1. Text Centered on a Photo</li>
+		<li>2. A Photo With 20px Margins Each Side</li>
+		<li>3. Text with Dotted Border Line</li>
+		</ul>
+		<h2>Apprentice #1</h2>
+		<style>
+		.container {
+			position: relative;
+			text-align: center;
+			color: white;
+		}
+		.bottom-left {
+			position: absolute;
+			bottom: 8px;
+			left: 16px;
+		}
+		.top-left {
+ 			position: absolute;
+ 			top: 8px;
+ 			left: 16px;
+		}
+		.top-right {
+ 			position: absolute;
+			top: 8px;
+  			right: 16px;
+		}
+		.bottom-right {
+  			position: absolute;
+  			bottom: 8px;
+  			right: 16px;
+		}
+		.centered {
+ 			position: absolute;
+ 			top: 50%;
+			left: 50%;
+ 			transform: translate(-50%, -50%);
+		}
+		</style>
+		<div class="container">
+  			<img src="https://i.pinimg.com/originals/e6/c4/72/e6c472a4b9aaf0fbf6e715d9eab3918f.jpg" alt="Froggy" style="width:100%;">
+ 			 <div class="bottom-left">Bottom Left</div>
+ 			 <div class="top-left">Top Left</div>
+ 			 <div class="top-right">Top Right</div>
+ 			 <div class="bottom-right">Bottom Right</div>
+			  <div class="centered">Centered</div>
+		</div>
+		<p>There is extra text over the image for each of the four corners and a coral border on everything.</p>
+		<h2>Apprentice #2</h2>
+		<p>Re-using an above photo...</p>
+		<img src = "http://www.arizonapetvet.com/blog/wp-content/uploads/2020/08/AdobeStock_233302249.jpeg" 
+			title = "Alert Bunnies"
+			style="width: 100px; height: 100px; margin: 20px"> 
+		</img> 
+		<h2>Apprentice #3</h2>
+		<p style = "border-style: dotted">Here is a text with a dotted border.</p>
+
+
+
+
+	</body>
+</html>
